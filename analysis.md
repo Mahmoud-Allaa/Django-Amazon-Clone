@@ -1,0 +1,21 @@
+Products :
+    - name
+    - subtitle
+    - description
+    - price
+    - quantity
+    - uom --> unit of measur
+    - reviews * :
+        - user
+        - rate
+        - review
+        - create_date
+        - product
+    - tags
+    - brand * :
+        - image
+        - name
+    - sku
+    - product_images * :
+        - image
+        - product
