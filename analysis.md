@@ -5,17 +5,17 @@ Products :
     - price
     - quantity
     - uom --> unit of measur
+    - sku
+    - tags
     - reviews * :
         - user
         - rate
         - review
         - create_date
         - product
-    - tags
     - brand * :
         - image
         - name
-    - sku
     - product_images * :
         - image
         - product
