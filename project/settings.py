@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # Libraries
     "taggit", 
+    "django_summernote",
 
     # my apps
     'products',
@@ -60,7 +61,7 @@ ROOT_URLCONF = 'project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
